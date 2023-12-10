@@ -12,7 +12,6 @@ public class HelloPW2 {
 
     @GET
     @Produces("text/plain")
-    //retornar o valor em application.yaml
     public String hello(){
         return ifrs;
     }
